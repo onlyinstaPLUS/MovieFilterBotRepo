@@ -1,4 +1,4 @@
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @Official
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -10,7 +10,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /AutoFilterBot
-WORKDIR /AutoFilterBot
+RUN mkdir /MovieFilterBotRepo
+WORKDIR /MovieFilterBotRepo
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
